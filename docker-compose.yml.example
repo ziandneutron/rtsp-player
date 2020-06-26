@@ -6,6 +6,6 @@ services:
     build: .
     restart: unless-stopped
     volumes:
-      - .:/usr/src/app
+      - ./index.js:/usr/src/app/index.js
     ports:
       - 2000:2000 
