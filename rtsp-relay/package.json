@@ -1,0 +1,63 @@
+{
+	"_from": "rtsp-relay",
+	"_id": "rtsp-relay@1.0.4",
+	"_inBundle": false,
+	"_integrity": "sha512-6UB3Is99Var88tQ7Rprx46j2vttG+FH3tMoOlQhuO++2dvM3y57iWy8V7Gh2Ou5XVSsl3jb/KjBIRkuo+Ow1+g==",
+	"_location": "/rtsp-relay",
+	"_phantomChildren": {},
+	"_requested": {
+		"type": "tag",
+		"registry": true,
+		"raw": "rtsp-relay",
+		"name": "rtsp-relay",
+		"escapedName": "rtsp-relay",
+		"rawSpec": "",
+		"saveSpec": null,
+		"fetchSpec": "latest"
+	},
+	"_requiredBy": [ "#USER", "/" ],
+	"_resolved": "https://registry.npmjs.org/rtsp-relay/-/rtsp-relay-1.0.4.tgz",
+	"_shasum": "99fdf62e1ccbd56827f6b83384e4ba35af8ea34b",
+	"_spec": "rtsp-relay",
+	"_where": "D:\\APPS\\cctv\\rtsp-relay",
+	"author": {
+		"name": "Kyle Hensel"
+	},
+	"bugs": {
+		"url": "https://github.com/k-yle/rtsp-relay/issues"
+	},
+	"bundleDependencies": false,
+	"dependencies": {
+		"atob": "^2.1.2",
+		"express-ws": "^4.0.0",
+		"ps-node": "^0.1.6"
+	},
+	"deprecated": false,
+	"description": "📽 Relay an RTSP stream through an existing express.js server",
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-kyle": "^1.0.8",
+		"typescript": "^3.8.3"
+	},
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"eslintConfig": {
+		"extends": "kyle"
+	},
+	"files": [ "index.js" ],
+	"homepage": "https://github.com/k-yle/rtsp-relay#readme",
+	"keywords": [ "rtsp", "rtsp-stream", "stream", "websocket", "ws", "express", "ffmpeg", "jsmpeg" ],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "rtsp-relay",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/k-yle/rtsp-relay.git"
+	},
+	"scripts": {
+		"test": "eslint index.js",
+		"trypublish": "npm publish || true"
+	},
+	"version": "1.0.4"
+}
